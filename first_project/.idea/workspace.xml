@@ -2,19 +2,288 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b93b8d-da00-49e4-83a7-10ed3f994240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d8f4019-1198-42f5-bf23-5c330a7a5f5c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/55e212c7-1520-4956-9b9b-f75c8fba4b19.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/app.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/app.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/base_z.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/base_z.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/bigbanner_leftarrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bigbanner_leftarrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/bigbanner_rightarrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bigbanner_rightarrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/chatmessages.zip" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/chatmessages.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/f.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/f.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/filter_check.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/filter_check.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/floating.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/floating.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/foot1.jpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/foot1.jpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/foot2.jpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/foot2.jpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/getRandom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/getRandom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/heading-1-figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/heading-1-figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/heading-4-figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/heading-4-figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/heading-5-figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/heading-5-figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/heading-6-figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/heading-6-figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/heading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/heading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/home_silo_banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home_silo_banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/home_silo_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home_silo_title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/homepage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/homepage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/huodong9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/huodong9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_arrows_right_black.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_arrows_right_black.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_attr_remove.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_attr_remove.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_close2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_close2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_countdown.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_countdown.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_gift.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_gift.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_not_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_not_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/icon_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon_title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/jia9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/jia9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junan9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junan9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/junv9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/junv9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/label-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/label-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/login_main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/login_main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/mei7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/mei7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nan6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nan6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nav1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nav1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nav2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nav2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nav3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nav3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nav4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nav4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nav5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nav5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nv7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nv7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/nvshi9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/nvshi9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/photo_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/photo_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/tong1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/tong2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/tong3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/tong4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/tong4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/weibo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/weibo_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/weibo_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/weixin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/weixin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/xin9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/xin9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/zhifubao.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/zhifubao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/zhifubao_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/zhifubao_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images/zhuceyouli.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/zhuceyouli.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/11.jpg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/11.jpg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-202-00001a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-202-00001a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-202-00004a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-202-00004a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003u_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003u_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003u_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003u_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003u_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003u_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003w_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003w_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003w_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003w_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003w_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003w_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003x_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003x_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003x_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003x_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-203-00003x_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-203-00003x_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011u_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011u_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011u_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011u_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011u_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011u_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011w_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011w_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011w_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011w_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011w_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011w_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011x_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011x_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011x_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011x_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-206-00011x_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-206-00011x_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00003a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00003a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00008a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00008a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00013a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00013a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00016a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00016a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00019a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00019a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00023a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00023a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00028a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00028a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00033a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00033a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00037a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00037a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00041a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00041a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00045a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00045a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00049a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00049a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00053a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00053a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00059a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00059a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00064a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00064a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-208-00071a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-208-00071a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00001a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00001a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00005a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00005a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00011a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00011a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00011b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00011b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00011c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00011c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00017a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00017a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00021a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00021a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00025a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00025a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00029a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00029a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00035a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00035a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00039a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00039a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045u.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045u.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045u_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045u_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045u_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045u_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045u_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045u_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045w_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045w_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045w_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045w_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045w_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045w_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045x_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045x_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045x_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045x_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-215-00045x_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-215-00045x_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001b_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001b_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001b_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001b_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001b_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001b_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001c_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001c_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001c_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001c_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00001c_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00001c_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005b_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005b_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005b_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005b_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005b_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005b_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005c_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005c_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005c_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005c_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00005c_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00005c_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009b_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009b_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009b_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009b_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009b_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009b_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009c_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009c_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009c_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009c_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00009c_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00009c_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013a_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013a_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013a_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013a_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013a_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013a_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013b_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013b_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013b_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013b_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013b_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013b_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013c_480w-640h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013c_480w-640h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013c_80w-107h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013c_80w-107h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00013c_900w-1200h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00013c_900w-1200h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00021a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00021a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/KWD-244-00028a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/KWD-244-00028a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/bigimg_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/bigimg_next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/bigimg_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/bigimg_prev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_7daysrma.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_7daysrma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_buy.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_buy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_countdown.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_countdown.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_real100.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_real100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/icon_sales.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/icon_sales.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/increase.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/increase.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/nan1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/nan1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/nan2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/nan2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/nan3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/nan3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/native-fireshot.log" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/native-fireshot.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/reduce_none.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/reduce_none.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/share_weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/share_weibo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/small1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/small1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/small2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/small2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/small3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/small3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/thumbnail_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/thumbnail_next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/thumbnail_prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/thumbnail_prev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/images1/top_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images1/top_icon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +333,23 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="122" />
+          <entry key="HTML" value="451" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="228" />
+          <entry key="Python" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="122" />
-          <entry key="py" value="228" />
+          <entry key="html" value="451" />
+          <entry key="js" value="8" />
+          <entry key="py" value="295" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -96,9 +368,9 @@
           <entry key="django_content_type" value="1" />
           <entry key="django_migrations" value="1" />
           <entry key="django_session" value="1" />
-          <entry key="html" value="8" />
-          <entry key="js" value="5" />
-          <entry key="py" value="19" />
+          <entry key="html" value="17" />
+          <entry key="js" value="6" />
+          <entry key="py" value="23" />
           <entry key="sql" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -108,10 +380,10 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="Database Element" value="12" />
-          <entry key="HTML" value="8" />
-          <entry key="JavaScript" value="5" />
+          <entry key="HTML" value="17" />
+          <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="19" />
+          <entry key="Python" value="23" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -119,11 +391,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="-384">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#2;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/shoppingbag.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/regsiter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/text.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2500">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -135,8 +490,14 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -147,12 +508,15 @@
         <option value="$PROJECT_DIR$/first_project/urls.py" />
         <option value="$PROJECT_DIR$/first_project/settings.py" />
         <option value="$PROJECT_DIR$/first_project/__init__.py" />
-        <option value="$PROJECT_DIR$/App/urls.py" />
         <option value="$PROJECT_DIR$/App/models.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/static/js/text.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/App/views.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/regsiter.html" />
+        <option value="$PROJECT_DIR$/templates/shoppingbag.html" />
+        <option value="$PROJECT_DIR$/App/urls.py" />
+        <option value="$PROJECT_DIR$/App/views.py" />
       </list>
     </option>
   </component>
@@ -163,10 +527,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="139" />
-    <option name="y" value="64" />
-    <option name="width" value="970" />
-    <option name="height" value="691" />
+    <option name="x" value="1" />
+    <option name="y" value="25" />
+    <option name="width" value="1897" />
+    <option name="height" value="162" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -182,6 +546,21 @@
             <path>
               <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="first_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,12 +580,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,14 +645,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1849" height="868" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16676025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15328467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3125" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32655826" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32848838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32389936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,8 +661,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32791328" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3008721" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,7 +686,7 @@
         <state relative-caret-position="-504" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/images/f.txt">
+    <entry file="file://$PROJECT_DIR$/static/images/f.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jquery-1.12.3.js">
@@ -313,13 +697,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a37df3a-7433-457d-afc5-c827bb055e28/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_project/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,48 +715,10 @@
     <entry file="file://$PROJECT_DIR$/App/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -460,10 +799,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2500">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="-384">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#2;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/regsiter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#4;n#ul#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shoppingbag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
