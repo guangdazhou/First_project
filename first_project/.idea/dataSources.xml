@@ -18,11 +18,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="szpython1809@localhost" uuid="4a37df3a-7433-457d-afc5-c827bb055e28">
+    <data-source source="LOCAL" name="python1809@localhost" uuid="009914eb-6c17-4ed3-96da-0767e1d609e4">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/szpython1809</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/python1809</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

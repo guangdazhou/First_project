@@ -1,0 +1,797 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Schiesser/舒雅德国舒雅 男士保暖-Schiesser/舒雅官网-Schiesser/舒雅折扣—尽在魅力惠官网
+    </title>
+    <script src="{% static 'js/jquery-1.12.3.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/navindex.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/men.js' %}" type="text/javascript"></script>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/men.css' %}" type="text/css">
+{#    <script src="{% static 'js/text.js' %}"></script>#}
+</head>
+<body>
+
+<!--网页头部-->
+<div class="header_container">
+    <div class="header">
+        <div class="quick_access">
+            <div class="quick_access_left">
+                <ul id="ul_header">
+                    <li class="theLi">
+                        <img class="youli" src="{% static 'images/zhuceyouli.gif' %}" alt="">
+                        <a href="regsiter.html" style="color: red;">注册有礼</a>
+                    </li>
+                    <li class="theLi">
+                        <span>|</span>
+                    </li>
+                    <li class="theLi">
+                        <a href="login.html">登录</a>
+                    </li>
+                    <li class="theLi">
+                        <span>|</span>
+                    </li>
+                    <li class="theLi">
+                        <a href="#">收藏</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="quick_access_right">
+                <ul>
+                    <li><a href="#">在线咨询</a></li>
+                    <li> | </li>
+                    <li><a href="#">手机版</a></li>
+                    <li> | </li>
+                    <li>
+                        <a href="#" style="display:inline-block; width: 30px;height: 30px;background: url(images/base_z.png) no-repeat -600px -322px">
+
+                        </a>
+                    </li>
+                </ul>
+                <div class="app">
+                    <img src="{% static 'images/app.jpg' %}" alt="">
+                    <p>扫描下载APP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="branding">
+        <a href=""><div class="logo" style="background:url(images/base_z.png) no-repeat -846px -292px;"></div></a>
+        <div class="logo_slogan" style="background:url(images/base_z.png) no-repeat -897px -72px;"></div>
+    </div>
+
+    <!--导航栏-->
+    <div class="nav_container">
+        <div class="nav">
+            <ul class="nav1">
+                <li class="navLi"><a href="Homepage.html" style="color: red">首页</a></li>
+                <li class="navLi"><a href="#">女士</a>
+                    <!--弹出二级菜单-->
+                    <div class="pop_up1">
+                        <div class="submenu" style="border-right:1px solid #e7e7e7">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">DVF&nbsp;初秋优雅连衣裙</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">DVF &nbsp;摩登时尚搭配及配饰</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PH5&nbsp;秋冬温暖女装</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">ATSUGI &amp; PHISOFA&nbsp;高质丝袜专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">MARIE CLAIRE&nbsp;优雅巴黎范时尚女鞋(满折）</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">GERARD DAREL&nbsp;时髦优雅穿搭哲学</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">NINE WEST 等&nbsp;初秋上新</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">花样早秋&nbsp;女士羊绒衫上新</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+
+                        <div class="submenu">
+                            <p class="title">商品分类</p>
+                            <ul class="submenu_ul">
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">包袋</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">眼镜</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">手表&amp;首饰</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="Men.html">男士</a>
+                    <!--弹出二级菜单-->
+                    <div class="pop_up2">
+                        <div class="submenu" style="border-right:1px solid #e7e7e7">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">MARCO AZZALI&nbsp;时尚男装配饰</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JUMBOUGG&nbsp;舒适休闲男鞋(满折)</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">EDWIN&nbsp;休闲男装</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">ODLO&nbsp;瑞士专业户外男装</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">CHARRIOL&nbsp;精品男士鞋履秋季上新</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">MEN'S STYLE&nbsp;能量美肌 型男必备</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BIOTHERM&nbsp;碧欧泉男士护肤专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">老佛爷百货&nbsp;男士上装 夏日大降价</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+
+                        <div class="submenu">
+                            <p class="title">商品分类</p>
+                            <ul class="submenu_ul">
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">包袋</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">眼镜</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">手表&amp;首饰</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="">美妆</a>
+                    <!--弹出二级菜单-->
+                    <div class="pop_up3">
+                        <div class="submenu" style="border-right:1px solid #e7e7e7">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SK-II&nbsp;日本殿堂级护肤品</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BIOEFFECT&nbsp;高科技护肤品专场（满减）</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">LEADERS&nbsp;韩国畅销面膜</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">LA MER&nbsp;高端护肤品专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">贵妇级护理宝典&nbsp;奢华高端护肤专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">SHU UEMURA&nbsp;植村秀潮流彩妆护肤</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">IMEDEEN&nbsp;怡美缇胶原蛋白专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">MEDIHEAL&nbsp;美迪惠尔韩国人气面膜（满赠）</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+
+                        <div class="submenu">
+                            <p class="title">商品分类</p>
+                            <ul class="submenu_ul">
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">男士</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">彩妆</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美体</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美发</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">眼镜</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">美妆</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="">居家</a>
+                    <!--弹出二级菜单-->
+                    <div class="pop_up4">
+                        <div class="submenu" style="border-right:1px solid #e7e7e7">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PEARL LIFE&nbsp;日本珍珠锅（满减）</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">CORKCICLE&nbsp;好莱坞当红保温杯首发(满减）</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">GOURMET KITCHEN&nbsp;澳洲厨具</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">GOURMET KITCHEN&nbsp;澳洲瓷器</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">家务好帮手&nbsp;颜值有担当</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">WOOLTARA&nbsp;澳洲羊毛床品</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">HARIO&nbsp;日本进口餐具专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">LESCHI&nbsp;德国进口功能性小物</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+
+                        <div class="submenu">
+                            <p class="title">商品分类</p>
+                            <ul class="submenu_ul">
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">家电</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">旅游</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">床品</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">3C数码产品</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">厨具</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">摆件</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="">婴童</a>
+                    <!--弹出二级菜单-->
+                    <div class="pop_up5">
+                        <div class="submenu" style="border-right:1px solid #e7e7e7">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">B TOY&nbsp;创意环保玩具</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BENETTON&nbsp;色彩女童专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BENETTON&nbsp;色彩男童专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PAUL SMITH &amp; TRUSSARDI&nbsp;奢华男童</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PAUL SMITH &amp; TRUSSARDI&nbsp;奢华女童</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">POLO RALPH LAUREN&amp;COLE HAAN&nbsp;童鞋&amp;休闲鞋</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JUZI STORE&nbsp;质感童年</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JACADI&nbsp;法国服饰&amp;配饰专场</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+
+                        <div class="submenu">
+                            <p class="title">商品分类</p>
+                            <ul class="submenu_ul">
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">服装</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">鞋履</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">配饰</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">玩具</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">茶叶</a></li>
+                                <li><a href="" target="_blank" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">其他</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="">老佛爷奥莱</a>
+                    <div class="pop_up6">
+                        <div class="submenu">
+                            <p class="title">热门活动</p>
+                            <ul>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">B TOY&nbsp;创意环保玩具</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BENETTON&nbsp;色彩女童专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">BENETTON&nbsp;色彩男童专场</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PAUL SMITH &amp; TRUSSARDI&nbsp;奢华男童</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">PAUL SMITH &amp; TRUSSARDI&nbsp;奢华女童</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">POLO RALPH LAUREN&amp;COLE HAAN&nbsp;童鞋&amp;休闲鞋</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JUZI STORE&nbsp;质感童年</a></li>
+                                <li><a href="" style="color:#666;" onmouseover="this.style.cssText='color:#db2726;'" onmouseout="this.style.cssText='color:#666;'">JACADI&nbsp;法国服饰&amp;配饰专场</a></li>
+                            </ul>
+                            <p class="more"><a href="" style="color: #666;">查看所有活动</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLi"><a href="">即将推出</a></li>
+            </ul>
+
+            <!--购物袋-->
+            <div class="shopping_bag" onclick="shoppingSkipBag();">
+                <ul>
+                    <li class="shopping_quantity" id="shopping_quantity" style="text-align: center; width: 30px;background: url(images/base_z.png) no-repeat -1014px -221px;">0</li>
+                    <li>|</li>
+                    <li id="shopping_amount">¥0.00</li>
+                </ul>
+            </div>
+
+            <div class="pop_up_shopping" id="pop_up_shopping" onmouseover="alwaysShow()" onmouseleave="hideSmallBag();" style="display: none;">
+                <div style="display: block">
+                    <span class="button_close" onclick="closeSmallBag();">关闭</span>
+                </div>
+                <div class="inner_none" style="display: block;">购物袋暂无商品</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--商品内容详情-->
+<div class="productslist">
+    <div class="content_container clearfix">
+        <!--面包屑and活动时间-->
+        <div class="countdown">
+            <span id="spanTimer" class="countdown_Time">6天21时17分22秒</span>
+            <span class="countdown_label">活动剩余</span>
+        </div>
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="Homepage.html">首页</a></li>
+                <li>
+                    <span> &gt; </span>
+                    <a href="Men.html">男士</a>
+                </li>
+                <li class="product">
+                    <span> &gt; </span> "SCHIESSER"
+                </li>
+            </ul>
+        </div>
+        <!--面包屑and活动时间end-->
+        <h2>
+            <p id="addcolleting" style="cursor: pointer ; display: block">
+                <span class="fontbold">+</span>
+                收藏品牌
+            </p>
+            <p id="cancelcolleting" style="cursor: pointer ; display: none">
+                <span class="fontbold">-</span>
+                已收藏品牌
+            </p>
+            SCHIESSER
+            &nbsp;
+            德国舒雅 男士保暖
+            &nbsp;
+            <span class="red">0.6</span>
+            <span class="font14px red">折起</span>
+        </h2>
+        <div class="box_effect">
+            <ul>
+                <li class="box_effect_bg">
+                    <div class="box_effect_content" style="padding-bottom: 10px">
+                        <div class="box_effect_content_list">
+                            <ul>
+                                <!-- 赠品促销活动 -->
+                                <li style="float:left;width:945px;">
+                                    <span>满688元全场免运（海外直发商品除外）</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cuttingline"></div>
+                        <h3>品牌故事</h3>
+                        <p style="word-wrap:break-word;word-break:break-all;">
+                            德国舒雅，历经130多年的历史积淀，伴随着世界各地人们几个世代，成为内衣行业“高品质与舒适”的
+                            杰出表率和标杆。作为值得信赖的德国内衣专家，舒雅对其精湛工艺和运用创新高品质面料的能力引以为傲。
+                            其品牌承诺贯穿产品设计、面料创新、精细制造和严格品控的各个环节和细节。舒雅产品老少咸宜，忠诚
+                            地伴随世界各地人们世世代代，与他们分享“最亲密”的联系。SCHIESSER不仅是一个品牌，更是一种
+                            自然舒适、永恒的生活方式。SCHIESSER新概念提示我们，品牌的灵魂在于卓越的设计，而设计的独特之处
+                            就是将产品的实用性、舒适性和功能性有机的结合起来。SCHIESSER所代表的生活方式蕴含于其全线产品，
+                            既体现出经典，也散发着时代感、个性与感性，以及时尚潮流。它的核心价值百余年里一脉相承，
+                            在未来也一如既往的指引它的发展。
+                            <a href="http://www.mei.com/brandPage/2125-brand.html">更多</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-attrs" id="nav-attrs">
+            <div class="selected-attrs" id="selected-attrs">
+                <label>已选条件：</label>
+                <ul class="attrs">
+                    <li>&nbsp;</li>
+                </ul>
+                <b class="reset-filters">清空筛选条件</b>
+            </div>
+            <div class="filter-list">
+                <div id="selectTypeDiv" class="selectlist borderbottom">
+                    <i id="selectTypeLoading" class="loadingnow" style="display:none;">loading...</i>
+                    <div class="selectlist_top">
+                        <span>种类：</span>
+                    </div>
+                    <div id="scrollTypeDiv" class="selectlist_bottom">
+                        <ul class="select_ul">
+                            <li data="内衣&amp;泳衣"><span class="not_selected">复选框</span>内衣&amp;泳衣</li>
+                            <li data="家居服"><span class="not_selected">复选框</span>家居服</li>
+                            <li data="背心&amp;马夹"><span class="not_selected">复选框</span>背心&amp;马夹</li>
+                        </ul>
+                    </div>
+                    <b class="show-more" data-more="更多" data-fold="收起">更多</b>
+                </div>
+
+            </div>
+        </div>
+
+        <!--产品列表-->
+        <div id="contentDiv" class="thelist clearfix" style="padding-bottom: 100px">
+            <!--<div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi1.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg1_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>-->
+            <!--<div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi2.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg2_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi3.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg3_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>
+            <div class="listproduct">
+                <div class="product_img">
+                    <div class="product_label">
+                        <p class="label01 ie6png_compatible">买手推荐</p>
+                    </div>
+                    <a href="" target="_blank" style="white-space: normal">
+                        <img src="images1/nanshi5.jpg" alt="灰紧竖条全棉梭织长袖长裤家居套装" title="灰紧竖条全棉梭织长袖长裤家居套装" id="productImg5_0">
+                    </a>
+                </div>
+                <div class="product_content">
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            Schiesser/舒雅
+                        </a>
+                    </p>
+                    <p style="display: block;width: 225px;overflow: hidden;-o-text-overflow: ellipsis;white-space: nowrap;text-overflow: ellipsis">
+                        <a href="" style="color: #000">
+                            灰紧竖条全棉梭织长袖长裤家居套装
+                        </a>
+                    </p>
+                    <p class="font14px">
+                        <span class="red">￥190</span>
+                        <span style="text-decoration: line-through;font-size: 12px;margin-left:20px">￥3,560</span>
+                    </p>
+                </div>
+            </div>-->
+
+            <!--::after-->
+        </div>
+        <!--产品列表end-->
+
+    </div>
+</div>
+
+
+<!--网页底部-->
+<div class="footer_container">
+    <div class="footer">
+        <div class="footer_advantage">
+            <ul>
+                <li><a class="a1" href=""><span class="s1"></span><p>100%品牌授权正品</p></a></li>
+                <li><a class="a2" href=""><span class="s2"></span><p>满688免运费</p></a></li>
+                <li><a class="a3" href=""><span class="s3"></span><p>7天无条件退货</p></a></li>
+                <li><a class="a4" href=""><span class="s4"></span><p>超值折扣</p></a></li>
+                <li><a class="a5" href=""><span class="s5"></span><p>9点限时闪购</p></a></li>
+                <li class="footer_advantage_right"><a class="a6" href=""><span class="s6"></span><p>400－664－6698</p></a></li>
+            </ul>
+        </div>
+        <p class="footer_link">
+            <a href="">关于魅力惠</a>
+            <a href="">加入我们</a>
+            <a href="">联系我们</a>
+
+            <a href="">使用帮助</a>
+            <a href="">使用规则</a>
+            <a href="">隐私声明</a>
+            <a href="">网站地图</a>
+        </p>
+        <p class="footer_copyright">
+            <span>COPYRIGHT©2016  杭州魅俪信息技术有限公司版权所有</span>浙ICP备16004860号-1
+        </p>
+        <p class="footer_license">
+            <span><a href="" target="_blank" rel="nofollow"><img src="{% static 'images/foot1.jpg.png' %}" width="35" height="36"></a></span>
+            <a href="" target="_blank" rel="nofollow"><img src="{% static 'images/foot2.jpg.png' %}" width="105" height="35"></a>
+        </p>
+    </div>
+</div>
+
+
+</body>
+</html>

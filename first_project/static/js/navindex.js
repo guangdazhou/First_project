@@ -73,7 +73,7 @@ $(function(){
     //轮播图
 
     // 1，获取数据
-    $.get("json/lunbo.json",function(data){
+    $.get("/static/JSON/lunbo.json",function(data){
         console.log(data);
 
         //2 显示数据在页面上

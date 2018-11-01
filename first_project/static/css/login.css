@@ -84,38 +84,38 @@ div.login_wrapper div.login_container{
 }
 .hydl_loginbar {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 .hydl_loginbar ul li {
     font-weight: bold;
     list-style: none;
-    height: 40px;
-    line-height: 40px;
+    height: 200px;
+    line-height: 20px;
     overflow: hidden;
     width: 350px;
     text-align: left;
 }
 .hydl_loginbar input{
     width: 230px;
-    line-height: 40px;
+    line-height: 30px;
     height: 30px;
     margin-left: 20px;
 }
-.hydl_loginbar span{
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    text-align: right;
-}
-.hydl_loginbar p{
-    width: 220px;
-    height: 25px;
-    /*background: blue;*/
-    float: right;
-    margin-right: 50px;
-    color: red;
-}
+/*.hydl_loginbar span{*/
+    /*display: inline-block;*/
+    /*height: 40px;*/
+    /*width: 80px;*/
+    /*text-align: right;*/
+/*}*/
+/*!*.hydl_loginbar p{*!*/
+    /*!*width: 220px;*!*/
+    /*!*height: 25px;*!*/
+    /*!*!*background: blue;*!*!*/
+    /*!*float: right;*!*/
+    /*!*margin-right: 50px;*!*/
+    /*!*color: red;*!*/
+/*}*/
 .hydl_btn {
     width: 240px;
     height: 35px;

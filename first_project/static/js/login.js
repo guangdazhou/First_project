@@ -5,17 +5,17 @@
 
 $(function(){
     //验证码验证
-    $("#randomNum").click(function(){
-        $(this).css({
-            "fontSize" : 25
-        })
-        var str= "";
-        for(var i=0;i<4;i++){
-            var a = parseInt(Math.random()*10);
-            str += a;
-        }
-        $("#randomNum").text(str);
-    })
+    // $("#randomNum").click(function(){
+    //     $(this).css({
+    //         "fontSize" : 25
+    //     })
+    //     var str= "";
+    //     for(var i=0;i<4;i++){
+    //         var a = parseInt(Math.random()*10);
+    //         str += a;
+    //     }
+    //     $("#randomNum").text(str);
+    // })
 
 
     // 点击登录按钮
@@ -26,12 +26,12 @@ $(function(){
         }
 
         //验证码验证
-        if($(".yanzheng").val() == $("#randomNum").text() ){
-            $("#Rdm_error").text("")
-        }else {
-            $("#Rdm_error").text("验证码输入错误");
-            return;
-        }
+        // if($(".yanzheng").val() == $("#randomNum").text() ){
+        //     $("#Rdm_error").text("")
+        // }else {
+        //     $("#Rdm_error").text("验证码输入错误");
+        //     return;
+        // }
 
         //  获取cookie中注册过的所有用户
         var users = $.cookie("users");
@@ -50,7 +50,7 @@ $(function(){
                     $("#passWordtext").val("");
                     $("#randomImg").val("");
                     $("#randomNum").text("");
-                    location.href = "Homepage.html?"+$("#username").val();
+                    location.href = "/Homepage/";
 
                     isExist = true;   // 表示存在该用户
 

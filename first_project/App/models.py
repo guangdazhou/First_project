@@ -4,4 +4,16 @@ from django.db import models
 class User(models.Model):
     username = models.CharField(max_length=40)
     password = models.CharField(max_length=256)
-    tel = models.CharField(max_length=20,unique=True)
+    RPwd = models.CharField(max_length=256)
+
+
+class Base(models.Model):
+    img = models.CharField(max_length=100)
+    trackid = models.CharField(max_length=10)
+
+    class Meta:
+        abstract = True
+
+class Wheel(Base):
+    class Meta:
+        db_table = "app_wheel"

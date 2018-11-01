@@ -1,0 +1,23 @@
+[
+	{
+		"img": "static/images/nav1.jpg",
+		"id": 1
+	},
+	{
+		"img": "static/images/nav2.jpg",
+		"id": 2
+	},
+	{
+		"img": "static/images/nav3.jpg",
+		"id": 3
+	},
+	{
+		"img": "static/images/nav4.jpg",
+		"id": 4
+	},
+	{
+		"img": "static/images/nav5.jpg",
+		"id": 5
+	}
+]
+

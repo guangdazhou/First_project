@@ -110,11 +110,12 @@ div.login_wrapper div.login_container{
     height: 30px;
     margin-left: 20px;
 }
-.hydl_loginbar span{
+.hydl_loginbar input{
     display: inline-block;
-    height: 40px;
-    width: 80px;
+    height: 12px;
+    width: 200px;
     text-align: right;
+    /*margin: 0px;*/
 }
 .hydl_loginbar p{
     width: 220px;

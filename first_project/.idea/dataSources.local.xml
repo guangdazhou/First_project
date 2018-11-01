@@ -7,7 +7,7 @@
       <auth-required>false</auth-required>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
-    <data-source name="szpython1809@localhost" uuid="4a37df3a-7433-457d-afc5-c827bb055e28">
+    <data-source name="szpython1809@localhost" uuid="1b9bd233-ec2a-4435-80c2-2dc86a8cfc53">
       <database-info product="MySQL" version="5.7.24-0ubuntu0.18.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.24">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
