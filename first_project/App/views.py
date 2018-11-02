@@ -8,12 +8,12 @@ from App.models import Wheel
 
 
 def index(request):
-    # wheels = Wheel.objects.all()
+    wheels = Wheel.objects.all()
 
     username = request.session.get('username')
 
     data = {
-        # 'wheels':wheels,
+        'wheels':wheels,
         'username': username
     }
 

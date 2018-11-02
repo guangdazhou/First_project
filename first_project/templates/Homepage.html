@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <link rel="stylesheet" href="{% static 'css/swiper.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/swiper.js' %}"></script>
     <script src="{% static 'js/jquery-1.12.3.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/navindex.js' %}" type="text/javascript"></script>
     <link rel="stylesheet" href="{% static 'css/HomeStyle.css' %}" type="text/css">
@@ -59,8 +63,8 @@
         </div>
     </div>
     <div class="branding">
-        <a href=""><div class="logo" style="background:url(images/base_z.png) no-repeat -846px -292px;"></div></a>
-        <div class="logo_slogan" style="background:url(images/base_z.png) no-repeat -897px -72px;"></div>
+        <a href=""><div class="logo" style="background:url(static/images/base_z.png) no-repeat -846px -292px;"></div></a>
+        <div class="logo_slogan" style="background:url(static/images/base_z.png) no-repeat -897px -72px;"></div>
     </div>
 
     <!--导航栏-->
@@ -266,24 +270,36 @@
 {#<img src="{% static 'images/nv1.jpg' %}" alt="" style="width: 318px;height: 191px;margin: 0;overflow: hidden">#}
 
 <!--轮播图-->
-<div id="box">
-    <ul id="list">
-{#        <li><img src="{% static 'images/nav1.jpg' %}"></li>#}
-{#        <li><img src="{% static 'images/nav2.jpg' %}"></li>#}
-{#        <li><img src="{% static 'images/nav3.jpg' %}"></li>#}
-{#        <li><img src="{% static 'images/nav4.jpg' %}"></li>#}
-{#        <li><img src="{% static 'images/nav5.jpg' %}"></li>#}
-    </ul>
-    <ul id="list2">
-{#        <li class="active">1</li>#}
-{#        <li>2</li>#}
-{#        <li>3</li>#}
-{#        <li>4</li>#}
-{#        <li>5</li>#}
-    </ul>
-    <div id="left"> </div>
-    <div id="right"> </div>
+{#<div id="box">#}
+{#    <ul id="list">#}
+{##}
+{#    </ul>#}
+{#    <ul id="list2">#}
+{##}
+{#    </ul>#}
+{#    <div id="left"> </div>#}
+{#    <div id="right"> </div>#}
+{#</div>#}
+{#    轮播图#}
+<div class="swiper-container" id="topSwiper">
+    <div class="swiper-wrapper">
+        {% for wheel in wheels %}
+            <div class="swiper-slide">
+                <img src="{{ wheel.img }}" alt="">
+            </div>
+        {% endfor %}
+    </div>
+        <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+{#        <div class="swiper-button-next"></div>#}
+{#        <div class="swiper-button-prev"></div>#}
 </div>
+
+
+
+
+
 
 
 <!--楼梯固定窗口-->
