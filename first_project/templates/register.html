@@ -31,18 +31,18 @@
                 </div>
                 <div class="hydl_loginbar">
                     <ul>
-                            <form action="/register/", method="post">
-                                {% csrf_token %}
-                                <p>
-                                    <input type="text" placeholder="请输入11位手机号/邮箱" name="username">
-                                </p>
-                                <p>
-                                    <input type="password" placeholder="请输入密码" name="password">
-                                </p>
-                                <p>
-                                    <input type="text" placeholder="请确认密码" name="RPwd">
-                                </p>
-        {#                        <input type="submit" value="注册">#}
+                        <form action="/register/", method="post">
+                            {% csrf_token %}
+                            <p>
+                                <input type="text" placeholder="请输入11位手机号/邮箱" name="username" >
+                            </p>
+                            <p>
+                                <input type="password" placeholder="请输入密码" name="password" >
+                            </p>
+                            <p>
+                                <input type="password" placeholder="请确认密码" name="RPwd" >
+                            </p>
+        {#              <input type="submit" value="注册">#}
                     </ul>
                 </div>
                 <div style="clear:both;"></div>

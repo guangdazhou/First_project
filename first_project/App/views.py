@@ -27,8 +27,6 @@ def register(request):
         username = request.POST.get('username')
         password = request.POST.get('password')
         RPwd = request.POST.get('RPwd')
-
-        # 存入数据库
         try:
             user = User()
             user.username = username
@@ -50,37 +48,20 @@ def login(request):
         return render(request, 'login.html')
     elif request.method == 'POST':
         username = request.POST.get('username')
-        # 验证
         password = request.POST.get('password')
 
         users = User.objects.filter(username=username, password=password)
         if users.exists():
 
             user = users.first()
-
-            # 状态保持 - 设置cookie
-            # 状态保持 - 设置session
             request.session['username'] = username
             request.session.set_expiry(180)
-
-
             return redirect('app:Homepage')
         else:
             return HttpResponse('用户名或密码错误')
 
 def logout(request):
     response = redirect('app:Homepage')
-
-    ## session
-    # 方式一: session是借助于cookie
-    # response.delete_cookie('sessionid')
-
-    # 方式二: 直接删除session存储
     del request.session['username']
-
-    # 方式三: 同时删除cookie和session
-    # request.session.flush()
-
-
 
     return response
