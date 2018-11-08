@@ -24,13 +24,13 @@
                 <ul id="ul_header">
                     <li class="theLi">
                         <img class="youli" src="{% static 'images/zhuceyouli.gif' %}" alt="">
-                        <a href="regsiter.html" style="color: red;">注册有礼</a>
+                        <a href="/register/" style="color: red;">注册有礼</a>
                     </li>
                     <li class="theLi">
                         <span>|</span>
                     </li>
                     <li class="theLi">
-                        <a href="login.html">登录</a>
+                        <a href="/login/">登录</a>
                     </li>
                     <li class="theLi">
                         <span>|</span>
@@ -68,7 +68,7 @@
     <div class="nav_container">
         <div class="nav">
             <ul class="nav1">
-                <li class="navLi"><a href="Homepage.html" style="color: red">首页</a></li>
+                <li class="navLi"><a href="{% url 'app:Homepage' %}" style="color: red">首页</a></li>
                 <li class="navLi"><a href="#">女士</a>
                     <!--弹出二级菜单-->
                     <div class="pop_up1">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="navLi"><a href="Men.html">男士</a>
+                <li class="navLi"><a href="#">男士</a>
                     <!--弹出二级菜单-->
                     <div class="pop_up2">
                         <div class="submenu" style="border-right:1px solid #e7e7e7">

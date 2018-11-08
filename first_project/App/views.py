@@ -65,3 +65,15 @@ def logout(request):
     del request.session['username']
 
     return response
+
+
+def Men(request):
+    return render(request,'Men.html')
+
+
+def GoodsDetails(request):
+    return render(request,'GoodsDetails.html')
+
+
+def shoppingbag(request):
+    return render(request,'shoppingbag.html')

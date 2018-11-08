@@ -45,24 +45,24 @@ $(function(){
     })
 
     // //验证码验证
-    // $("#randomNum").click(function(){
-    //     $(this).css({
-    //         "fontSize" : 25
-    //     })
-    //     var str= "";
-    //     for(var i=0;i<4;i++){
-    //         var a = parseInt(Math.random()*10);
-    //         str += a;
-    //     }
-    //     $("#randomNum").text(str);
-    // })
-    // $(".yanzheng").blur(function(){
-    //     if($(this).val() == $("#randomNum").text() ){
-    //         $("#Rdm_error").text("")
-    //     }else {
-    //         $("#Rdm_error").text("验证码输入错误")
-    //     }
-    // })
+    $("#randomNum").click(function(){
+        $(this).css({
+            "fontSize" : 25
+        })
+        var str= "";
+        for(var i=0;i<4;i++){
+            var a = parseInt(Math.random()*10);
+            str += a;
+        }
+        $("#randomNum").text(str);
+    })
+    $(".yanzheng").blur(function(){
+        if($(this).val() == $("#randomNum").text() ){
+            $("#Rdm_error").text("")
+        }else {
+            $("#Rdm_error").text("验证码输入错误")
+        }
+    })
 
 
     //点击注册按钮
@@ -101,13 +101,13 @@ $(function(){
             }
 
 
-        // //验证码验证
-        // if($(".yanzheng").val() == $("#randomNum").text() ){
-        //     $("#Rdm_error").text("")
-        // }else {
-        //     $("#Rdm_error").text("验证码输入错误");
-        //     return;
-        // }
+        //验证码验证
+        if($(".yanzheng").val() == $("#randomNum").text() ){
+            $("#Rdm_error").text("")
+        }else {
+            $("#Rdm_error").text("验证码输入错误");
+            return;
+        }
 
 
         //验证是否已经注册过了

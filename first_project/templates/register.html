@@ -30,28 +30,46 @@
                     <p><span style="color: rgb(255, 0, 0);">新客专享 50元现金券＋2次免运</span><br></p>
                 </div>
                 <div class="hydl_loginbar">
-                    <ul>
-                        <form action="/register/", method="post">
-                            {% csrf_token %}
-                            <p>
-                                <input type="text" placeholder="请输入11位手机号/邮箱" name="username" >
-                            </p>
-                            <p>
-                                <input type="password" placeholder="请输入密码" name="password" >
-                            </p>
-                            <p>
-                                <input type="password" placeholder="请确认密码" name="RPwd" >
-                            </p>
-        {#              <input type="submit" value="注册">#}
-                    </ul>
+                    <form action="" method="post"">
+                        <ul>
+                             <form action="/register/", method="post">
+                                 {% csrf_token %}
+                                <li>
+                                    <input type="text" value="" placeholder="请输入手机或邮箱" id="username" name="username">
+                                </li>
+                                <p id = "Act_error" ></p>
+                                <li>
+                                    <span>密码:</span><input id="passWordtext" type="password" placeholder="请输入6-20个字符" maxlength="20" name="password">
+                                </li>
+                                <li id="word_length" style="margin-left: 130px">
+                                    <span id="low" style="height: 30px;width: 60px;background:darkgray; text-align: center;line-height: 30px">低</span>
+                                    <span id = "middle" style="height:30px;width: 60px;background:darkgray; text-align: center;line-height: 30px">中</span>
+                                    <span id = "height" style="height: 30px;width: 60px;background:darkgray; text-align: center;line-height: 30px">高</span>
+                                </li>
+                                <p id = "Pwd_error"></p>
+                                <li>
+                                    <span>确认密码:</span><input type="password" maxlength="20" id="RPwd" name="RPwd">
+                                </li>
+                                <p id = "RPwd_error"></p>
+                                <li id="rdm_img" class="showstyle">
+                                    <span>验证码:</span>
+                                    <input class="yanzheng" name="random" id="randomImg" maxlength="6" type="text" style="width: 100px;">
+                                    <!--<img id="rdm" src= "images/getRandom.jpg" style=" border: 1px solid #999;cursor: pointer;">-->
+                                    <span id="randomNum" style="float: right;width: 120px;height:35px;margin: 0 10px;background:#9ac9d8;text-align: center">点击生成验证码</span>
+                                </li>
+                                <p class = "Rdm_error" id="Rdm_error"></p>
+                                <input type="submit" value="注册">
+                             </form>
+                        </ul>
+                    </form>
                 </div>
                 <div style="clear:both;"></div>
-                <div class="hydl_btn">
-                   <form action="{% url 'app:register' %}" method="post">
-                        {% csrf_token %}
-                        <input type="submit" value="注册" id="regist">
-                   </form>
-                </div>
+{#                <div class="hydl_btn">#}
+{#                   <form action="{% url 'app:register' %}" method="post">#}
+{#                        {% csrf_token %}#}
+{#                        <input type="submit" value="注册" id="regist">#}
+{#                   </form>#}
+{#                </div>#}
                 <div class="sjzc_login">
                     <p>点击立即注册即表示同意魅力惠<a href=""><span>使用条款</span></a>
                     </p><p>您将收到魅力惠每日最新上线邮件</p>
