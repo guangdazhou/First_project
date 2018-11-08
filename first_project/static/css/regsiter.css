@@ -125,6 +125,13 @@ div.login_wrapper div.login_container{
     margin-right: 50px;
     color: red;
 }
+.hydl_loginbar #register{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 150px;
+}
+
 .hydl_btn {
     width: 250px;
     height: 35px;
