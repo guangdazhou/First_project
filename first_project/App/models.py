@@ -17,3 +17,32 @@ class Base(models.Model):
 class Wheel(Base):
     class Meta:
         db_table = "app_wheel"
+
+class Showgoods(models.Model):
+    goodsid = models.CharField(max_length=50)
+    img = models.CharField(max_length=100)
+    title = models.CharField(max_length=50)
+    span1 = models.CharField(max_length=50)
+    span2 = models.CharField(max_length=50)
+
+    class Meta:
+        db_table = "app_showgoods"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示商品详情页面展示</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            color: red;
+            margin: 40px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    {% for showgood in showgoods %}
+        商品ID：{{ showgood.goodsid }}
+        <img src="{{ showgood.img }}" alt="">
+        {{ showgood.title }}
+        <br>
+        劲爆价：${{ showgood.span1 }}
+        <br>
+        \原价\：${{ showgood.span2 }}
+    {% endfor %}
+</div>
+</body>
+</html>
